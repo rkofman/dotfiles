@@ -26,7 +26,7 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " Don't use Ex mode, use Q for formatting
-map Q gq
+" map Q gq
 
 " This is an alternative that also works in block mode, but the deleted
 " text is lost and it only works for putting the current register.
@@ -388,6 +388,7 @@ command! Kwbd call <SID>Kwbd(1)
 nnoremap <silent> <Plug>Kwbd :<C-u>Kwbd<CR>
 
 nmap <C-W>a <Plug>Kwbd
+nmap <leader>d <Plug>Kwbd
 
 " Directories for swp files
 set backupdir=~/.vim/backup
