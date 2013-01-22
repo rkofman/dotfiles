@@ -118,7 +118,14 @@
 	path = vim/bundle/easygrep
 	url = git://github.com/vim-scripts/EasyGrep.git
   ignore = untracked
-[submodule "vim-powerline"]
-	path = vim-powerline
+[submodule "vim/bundle/handlebars"]
+	path = vim/bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
+	ignore = untracked
+[submodule "vim/bundle/xoria256"]
+	path = vim/bundle/xoria256
+	url = git://github.com/vim-scripts/xoria256.vim.git
+	ignore = untracked
+[submodule "vim/bundle/powerline"]
+	path = vim/bundle/powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
-  ignore = untracked

@@ -263,12 +263,16 @@ if has("gui_running")
     if has("gui_gnome")
         set term=gnome-256color
         set t_Co=256
-        colorscheme jellybeans
+        " colorscheme tango2
+        colorscheme xoria256
+        " colorscheme molokai
         set guifont=Inconsolata\ Medium\ 12
     endif
     if has("gui_mac") || has("gui_macvim")
-        set background=light
-        colorscheme jellybeans
+        set background=dark
+        " colorscheme tango2
+        colorscheme xoria256
+        " colorscheme molokai
         set guifont=Monaco:h12
         set guioptions-=T " hide toolbar
         set guioptions-=r
