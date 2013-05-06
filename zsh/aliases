@@ -41,3 +41,9 @@ alias be='bundle exec'
 
 # commands starting with % for pasting from web
 alias %=' '
+
+# ack + open in vim
+ackvim() {ack -l "$*" | xargs sh -c '</dev/tty vim $*' }
+
+# screen
+alias sr='screen -r'

@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/rkofman/dotfiles/zsh'
 let g:netrw_dirhist_2='/Users/rkofman/dotfiles'
+let g:netrw_dirhist_3='/Users/rkofman/git-projects/ubergateway'
+let g:netrw_dirhist_4='/Users/rkofman/dotfiles'
+let g:netrw_dirhist_5='/usr/local/var/postgres'
+let g:netrw_dirhist_6='/Users/rkofman/git-projects/mastermerchant/extras/stats/transaction/calculations'
+let g:netrw_dirhist_7='/Users/rkofman/git-projects/emailconfig2/templates'
+let g:netrw_dirhist_8='/Users/rkofman/git-projects/mastermerchant/config'
