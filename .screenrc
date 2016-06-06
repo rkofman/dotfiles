@@ -1,5 +1,6 @@
 # Advertise 256 colors
 term screen-256color
+shell -${SHELL}
 
 # Turn off that annoying start up message
 startup_message off
